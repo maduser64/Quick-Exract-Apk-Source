@@ -14,7 +14,7 @@ todo : change in command for OS X
 '''
 class QuickExtract:
     def __init__(self,rootPath):
-        print "object created!"
+        print "> object created!"
 
         self.rootFol = rootPath
         self.apkFol = self.rootFol + "/apk"
